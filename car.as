@@ -24,36 +24,36 @@ function Car(var wheels:int, var doors:int, var cylinders:int){
       this.wheels = wheels;
       this.doors = doors;
       this.cylinders = cylinders;
-}
 
-this.addWheels = function(var wheelsIn:int){
-   this.wheels += wheelsIn;
-}
+      this.addWheels = function(var wheelsIn:int){
+         this.wheels += wheelsIn;
+      }
 
-this.addDoors = function(var doorsIn:int){
-   this.doors += doorsIn;
-}
+      this.addDoors = function(var doorsIn:int){
+         this.doors += doorsIn;
+      }
 
-this.addCylinders = function(var cylindersIn:int){
-   this.cylindersI += cylindersIn;
-}
+      this.addCylinders = function(var cylindersIn:int){
+         this.cylindersI += cylindersIn;
+      }
 
-this.deleteWheels = function(var wheelsIn:int){
-   this.wheels -= wheelsIn;
-}
+      this.deleteWheels = function(var wheelsIn:int){
+         this.wheels -= wheelsIn;
+      }
 
-this.deleteDoors = function(var doorsIn:int){
-   this.doors -= doorsIn;
-}
+      this.deleteDoors = function(var doorsIn:int){
+         this.doors -= doorsIn;
+      }
 
-this.deleteCylinders = function(var cylindersIn:int){
-   this.cylindersI -= cylindersIn;
-}
+      this.deleteCylinders = function(var cylindersIn:int){
+         this.cylindersI -= cylindersIn;
+      }
 
-this.printInfo() = function(){
-   trace("Wheel check: " + String(this.wheels) + "\n");
-   trace("Door check: " + String(this.doors) + "\n");
-   trace("Cylinder check: " + String(this.cylinders) + "\n");
+      this.printInfo() = function(){
+         trace("Wheel check: " + String(this.wheels) + "\n");
+         trace("Door check: " + String(this.doors) + "\n");
+         trace("Cylinder check: " + String(this.cylinders) + "\n");
+      }
 }
 
 trace("Creating car.\n");
